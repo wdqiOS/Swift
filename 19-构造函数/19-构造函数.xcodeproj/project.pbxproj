@@ -14,6 +14,7 @@
 		ECFD6B3D20F3D5A5007C009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B3B20F3D5A5007C009F /* LaunchScreen.storyboard */; };
 		ECFD6B4520F3D5B8007C009F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B4420F3D5B8007C009F /* Person.swift */; };
 		ECFD6B4920F3D9D3007C009F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B4820F3D9D3007C009F /* Book.m */; };
+		ECFD6B4B20F3DAEC007C009F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B4A20F3DAEC007C009F /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ECFD6B4620F3D9D2007C009F /* 19-构造函数-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "19-构造函数-Bridging-Header.h"; sourceTree = "<group>"; };
 		ECFD6B4720F3D9D3007C009F /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		ECFD6B4820F3D9D3007C009F /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		ECFD6B4A20F3DAEC007C009F /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ECFD6B3220F3D5A4007C009F /* AppDelegate.swift */,
 				ECFD6B3420F3D5A4007C009F /* ViewController.swift */,
 				ECFD6B4420F3D5B8007C009F /* Person.swift */,
+				ECFD6B4A20F3DAEC007C009F /* Student.swift */,
 				ECFD6B4720F3D9D3007C009F /* Book.h */,
 				ECFD6B4820F3D9D3007C009F /* Book.m */,
 				ECFD6B3620F3D5A4007C009F /* Main.storyboard */,
@@ -149,6 +152,7 @@
 				ECFD6B4920F3D9D3007C009F /* Book.m in Sources */,
 				ECFD6B4520F3D5B8007C009F /* Person.swift in Sources */,
 				ECFD6B3520F3D5A4007C009F /* ViewController.swift in Sources */,
+				ECFD6B4B20F3DAEC007C009F /* Student.swift in Sources */,
 				ECFD6B3320F3D5A4007C009F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

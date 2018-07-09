@@ -23,6 +23,7 @@ class Person: NSObject {
     
     // 重写->父类有这个方法，子类重新实现
     override init() {
+        print("person init")
         name = "李哲"
         super.init()
         

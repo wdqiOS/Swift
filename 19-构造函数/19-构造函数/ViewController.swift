@@ -24,8 +24,10 @@ class ViewController: UIViewController {
         // () -> alloc / init
         // Swift 中对应一个函数 init() 构造函数
         // 作用 给成员变量分配空间
-        let p = Person()
-        print(p.name)
+//        let p = Person()
+//        print(p.name)
+        let s = Student()
+        print(s.name + "----" + s.no)
     }
 
     override func didReceiveMemoryWarning() {
