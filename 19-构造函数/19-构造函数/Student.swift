@@ -12,6 +12,7 @@ class Student: Person {
     /// 学号
     var no: String
     
+    // 重写 person 的构造函数：父类方法不能满足需求
     override init() {
         print("student")
         no = "001"
