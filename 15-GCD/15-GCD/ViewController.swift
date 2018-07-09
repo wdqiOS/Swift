@@ -17,6 +17,35 @@ class ViewController: UIViewController {
             (result) in
             print("\(result)")
         })
+        
+        // 尾随闭包
+        // 如果函数的最后一个参数是闭包，函数参数可以提前结束，最后一个参数直接使用{}包装闭包代码
+        // loadData(complete: <#T##([String]) -> ()#>)
+        loadData { (result) in
+            print("获得结果：\(result)")
+        }
+        
+        // 按照函数本身编写的结果
+        // 关于尾随闭包
+        // 1、能看懂
+        // 2、能够慢慢编写，大多数Xcode的智能提示会帮助
+        loadData(complete: {(result) -> () in
+            print(result)
+        })
+    }
+    
+    func demo() -> () {
+        // 尾随闭包
+        DispatchQueue.global().async {
+            // 嵌套的gcd 不会提示
+            DispatchQueue.main.async(execute: {
+                
+            })
+        }
+        
+        DispatchQueue.main.async {
+            
+        }
     }
     
     /*
