@@ -8,7 +8,7 @@
 
 
 /**
-    在Swift中，默认同一个项目中，所有的类都是共享的，可以直接访问，不需要import
+    在Swift中，默认同一个项目中（同一个命名空间下），所有的类都是共享的，可以直接访问，不需要import
     所有对象的属性 var，也可以直接访问到
  */
 
@@ -22,9 +22,10 @@ class ViewController: UIViewController {
         
         // 实例化 Person
         // () -> alloc / init
+        // Swift 中对应一个函数 init() 构造函数
+        // 作用 给成员变量分配空间
         let p = Person()
-        
-        print(p)
+        print(p.name)
     }
 
     override func didReceiveMemoryWarning() {

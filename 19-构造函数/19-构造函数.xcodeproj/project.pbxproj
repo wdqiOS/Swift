@@ -13,6 +13,7 @@
 		ECFD6B3A20F3D5A5007C009F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B3920F3D5A5007C009F /* Assets.xcassets */; };
 		ECFD6B3D20F3D5A5007C009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B3B20F3D5A5007C009F /* LaunchScreen.storyboard */; };
 		ECFD6B4520F3D5B8007C009F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B4420F3D5B8007C009F /* Person.swift */; };
+		ECFD6B4920F3D9D3007C009F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B4820F3D9D3007C009F /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		ECFD6B3C20F3D5A5007C009F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECFD6B3E20F3D5A5007C009F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECFD6B4420F3D5B8007C009F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		ECFD6B4620F3D9D2007C009F /* 19-构造函数-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "19-构造函数-Bridging-Header.h"; sourceTree = "<group>"; };
+		ECFD6B4720F3D9D3007C009F /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		ECFD6B4820F3D9D3007C009F /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,13 @@
 				ECFD6B3220F3D5A4007C009F /* AppDelegate.swift */,
 				ECFD6B3420F3D5A4007C009F /* ViewController.swift */,
 				ECFD6B4420F3D5B8007C009F /* Person.swift */,
+				ECFD6B4720F3D9D3007C009F /* Book.h */,
+				ECFD6B4820F3D9D3007C009F /* Book.m */,
 				ECFD6B3620F3D5A4007C009F /* Main.storyboard */,
 				ECFD6B3920F3D5A5007C009F /* Assets.xcassets */,
 				ECFD6B3B20F3D5A5007C009F /* LaunchScreen.storyboard */,
 				ECFD6B3E20F3D5A5007C009F /* Info.plist */,
+				ECFD6B4620F3D9D2007C009F /* 19-构造函数-Bridging-Header.h */,
 			);
 			path = "19-构造函数";
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 				TargetAttributes = {
 					ECFD6B2E20F3D5A4007C009F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -138,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFD6B4920F3D9D3007C009F /* Book.m in Sources */,
 				ECFD6B4520F3D5B8007C009F /* Person.swift in Sources */,
 				ECFD6B3520F3D5A4007C009F /* ViewController.swift in Sources */,
 				ECFD6B3320F3D5A4007C009F /* AppDelegate.swift in Sources */,
@@ -284,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXKRS4XWUT;
 				INFOPLIST_FILE = "19-构造函数/Info.plist";
@@ -293,6 +303,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.-9-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "19-构造函数/19-构造函数-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXKRS4XWUT;
 				INFOPLIST_FILE = "19-构造函数/Info.plist";
@@ -311,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.-9-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "19-构造函数/19-构造函数-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
