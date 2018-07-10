@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECFD6B5B20F442C9007C009F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B5A20F442C9007C009F /* AppDelegate.swift */; };
-		ECFD6B5D20F442C9007C009F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B5C20F442C9007C009F /* ViewController.swift */; };
-		ECFD6B6020F442C9007C009F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B5E20F442C9007C009F /* Main.storyboard */; };
-		ECFD6B6220F442C9007C009F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B6120F442C9007C009F /* Assets.xcassets */; };
-		ECFD6B6520F442C9007C009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B6320F442C9007C009F /* LaunchScreen.storyboard */; };
-		ECFD6B6D20F442DD007C009F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B6C20F442DD007C009F /* Person.swift */; };
-		ECFD6B6F20F47D8D007C009F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B6E20F47D8D007C009F /* Student.swift */; };
+		ECFD6B7D20F47F8E007C009F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B7C20F47F8E007C009F /* AppDelegate.swift */; };
+		ECFD6B7F20F47F8E007C009F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B7E20F47F8E007C009F /* ViewController.swift */; };
+		ECFD6B8220F47F8E007C009F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B8020F47F8E007C009F /* Main.storyboard */; };
+		ECFD6B8420F47F8F007C009F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B8320F47F8F007C009F /* Assets.xcassets */; };
+		ECFD6B8720F47F8F007C009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B8520F47F8F007C009F /* LaunchScreen.storyboard */; };
+		ECFD6B8F20F47FA0007C009F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B8E20F47FA0007C009F /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ECFD6B5720F442C9007C009F /* 20-构造函数KVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20-构造函数KVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECFD6B5A20F442C9007C009F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECFD6B5C20F442C9007C009F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECFD6B5F20F442C9007C009F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECFD6B6120F442C9007C009F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECFD6B6420F442C9007C009F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ECFD6B6620F442C9007C009F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECFD6B6C20F442DD007C009F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		ECFD6B6E20F47D8D007C009F /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		ECFD6B7920F47F8E007C009F /* 21-运行时加载属性列表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "21-运行时加载属性列表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFD6B7C20F47F8E007C009F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECFD6B7E20F47F8E007C009F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECFD6B8120F47F8E007C009F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECFD6B8320F47F8F007C009F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECFD6B8620F47F8F007C009F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECFD6B8820F47F8F007C009F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFD6B8E20F47FA0007C009F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ECFD6B5420F442C9007C009F /* Frameworks */ = {
+		ECFD6B7620F47F8E007C009F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ECFD6B4E20F442C9007C009F = {
+		ECFD6B7020F47F8E007C009F = {
 			isa = PBXGroup;
 			children = (
-				ECFD6B5920F442C9007C009F /* 20-构造函数KVC */,
-				ECFD6B5820F442C9007C009F /* Products */,
+				ECFD6B7B20F47F8E007C009F /* 21-运行时加载属性列表 */,
+				ECFD6B7A20F47F8E007C009F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ECFD6B5820F442C9007C009F /* Products */ = {
+		ECFD6B7A20F47F8E007C009F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECFD6B5720F442C9007C009F /* 20-构造函数KVC.app */,
+				ECFD6B7920F47F8E007C009F /* 21-运行时加载属性列表.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECFD6B5920F442C9007C009F /* 20-构造函数KVC */ = {
+		ECFD6B7B20F47F8E007C009F /* 21-运行时加载属性列表 */ = {
 			isa = PBXGroup;
 			children = (
-				ECFD6B5A20F442C9007C009F /* AppDelegate.swift */,
-				ECFD6B5C20F442C9007C009F /* ViewController.swift */,
-				ECFD6B6320F442C9007C009F /* LaunchScreen.storyboard */,
-				ECFD6B6C20F442DD007C009F /* Person.swift */,
-				ECFD6B6E20F47D8D007C009F /* Student.swift */,
-				ECFD6B5E20F442C9007C009F /* Main.storyboard */,
-				ECFD6B6120F442C9007C009F /* Assets.xcassets */,
-				ECFD6B6620F442C9007C009F /* Info.plist */,
+				ECFD6B7C20F47F8E007C009F /* AppDelegate.swift */,
+				ECFD6B7E20F47F8E007C009F /* ViewController.swift */,
+				ECFD6B8E20F47FA0007C009F /* Person.swift */,
+				ECFD6B8020F47F8E007C009F /* Main.storyboard */,
+				ECFD6B8320F47F8F007C009F /* Assets.xcassets */,
+				ECFD6B8520F47F8F007C009F /* LaunchScreen.storyboard */,
+				ECFD6B8820F47F8F007C009F /* Info.plist */,
 			);
-			path = "20-构造函数KVC";
+			path = "21-运行时加载属性列表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECFD6B5620F442C9007C009F /* 20-构造函数KVC */ = {
+		ECFD6B7820F47F8E007C009F /* 21-运行时加载属性列表 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECFD6B6920F442C9007C009F /* Build configuration list for PBXNativeTarget "20-构造函数KVC" */;
+			buildConfigurationList = ECFD6B8B20F47F8F007C009F /* Build configuration list for PBXNativeTarget "21-运行时加载属性列表" */;
 			buildPhases = (
-				ECFD6B5320F442C9007C009F /* Sources */,
-				ECFD6B5420F442C9007C009F /* Frameworks */,
-				ECFD6B5520F442C9007C009F /* Resources */,
+				ECFD6B7520F47F8E007C009F /* Sources */,
+				ECFD6B7620F47F8E007C009F /* Frameworks */,
+				ECFD6B7720F47F8E007C009F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "20-构造函数KVC";
-			productName = "20-构造函数KVC";
-			productReference = ECFD6B5720F442C9007C009F /* 20-构造函数KVC.app */;
+			name = "21-运行时加载属性列表";
+			productName = "21-运行时加载属性列表";
+			productReference = ECFD6B7920F47F8E007C009F /* 21-运行时加载属性列表.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ECFD6B4F20F442C9007C009F /* Project object */ = {
+		ECFD6B7120F47F8E007C009F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "汪大强";
 				TargetAttributes = {
-					ECFD6B5620F442C9007C009F = {
+					ECFD6B7820F47F8E007C009F = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = ECFD6B5220F442C9007C009F /* Build configuration list for PBXProject "20-构造函数KVC" */;
+			buildConfigurationList = ECFD6B7420F47F8E007C009F /* Build configuration list for PBXProject "21-运行时加载属性列表" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = ECFD6B4E20F442C9007C009F;
-			productRefGroup = ECFD6B5820F442C9007C009F /* Products */;
+			mainGroup = ECFD6B7020F47F8E007C009F;
+			productRefGroup = ECFD6B7A20F47F8E007C009F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECFD6B5620F442C9007C009F /* 20-构造函数KVC */,
+				ECFD6B7820F47F8E007C009F /* 21-运行时加载属性列表 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ECFD6B5520F442C9007C009F /* Resources */ = {
+		ECFD6B7720F47F8E007C009F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFD6B6520F442C9007C009F /* LaunchScreen.storyboard in Resources */,
-				ECFD6B6220F442C9007C009F /* Assets.xcassets in Resources */,
-				ECFD6B6020F442C9007C009F /* Main.storyboard in Resources */,
+				ECFD6B8720F47F8F007C009F /* LaunchScreen.storyboard in Resources */,
+				ECFD6B8420F47F8F007C009F /* Assets.xcassets in Resources */,
+				ECFD6B8220F47F8E007C009F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ECFD6B5320F442C9007C009F /* Sources */ = {
+		ECFD6B7520F47F8E007C009F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFD6B6D20F442DD007C009F /* Person.swift in Sources */,
-				ECFD6B5D20F442C9007C009F /* ViewController.swift in Sources */,
-				ECFD6B5B20F442C9007C009F /* AppDelegate.swift in Sources */,
-				ECFD6B6F20F47D8D007C009F /* Student.swift in Sources */,
+				ECFD6B8F20F47FA0007C009F /* Person.swift in Sources */,
+				ECFD6B7F20F47F8E007C009F /* ViewController.swift in Sources */,
+				ECFD6B7D20F47F8E007C009F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ECFD6B5E20F442C9007C009F /* Main.storyboard */ = {
+		ECFD6B8020F47F8E007C009F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ECFD6B5F20F442C9007C009F /* Base */,
+				ECFD6B8120F47F8E007C009F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ECFD6B6320F442C9007C009F /* LaunchScreen.storyboard */ = {
+		ECFD6B8520F47F8F007C009F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ECFD6B6420F442C9007C009F /* Base */,
+				ECFD6B8620F47F8F007C009F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ECFD6B6720F442C9007C009F /* Debug */ = {
+		ECFD6B8920F47F8F007C009F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		ECFD6B6820F442C9007C009F /* Release */ = {
+		ECFD6B8A20F47F8F007C009F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,36 +280,36 @@
 			};
 			name = Release;
 		};
-		ECFD6B6A20F442C9007C009F /* Debug */ = {
+		ECFD6B8C20F47F8F007C009F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXKRS4XWUT;
-				INFOPLIST_FILE = "20-构造函数KVC/Info.plist";
+				INFOPLIST_FILE = "21-运行时加载属性列表/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.-0-----KVC";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.-1----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ECFD6B6B20F442C9007C009F /* Release */ = {
+		ECFD6B8D20F47F8F007C009F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXKRS4XWUT;
-				INFOPLIST_FILE = "20-构造函数KVC/Info.plist";
+				INFOPLIST_FILE = "21-运行时加载属性列表/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.-0-----KVC";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.wdq.-1----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECFD6B5220F442C9007C009F /* Build configuration list for PBXProject "20-构造函数KVC" */ = {
+		ECFD6B7420F47F8E007C009F /* Build configuration list for PBXProject "21-运行时加载属性列表" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECFD6B6720F442C9007C009F /* Debug */,
-				ECFD6B6820F442C9007C009F /* Release */,
+				ECFD6B8920F47F8F007C009F /* Debug */,
+				ECFD6B8A20F47F8F007C009F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECFD6B6920F442C9007C009F /* Build configuration list for PBXNativeTarget "20-构造函数KVC" */ = {
+		ECFD6B8B20F47F8F007C009F /* Build configuration list for PBXNativeTarget "21-运行时加载属性列表" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECFD6B6A20F442C9007C009F /* Debug */,
-				ECFD6B6B20F442C9007C009F /* Release */,
+				ECFD6B8C20F47F8F007C009F /* Debug */,
+				ECFD6B8D20F47F8F007C009F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ECFD6B4F20F442C9007C009F /* Project object */;
+	rootObject = ECFD6B7120F47F8E007C009F /* Project object */;
 }

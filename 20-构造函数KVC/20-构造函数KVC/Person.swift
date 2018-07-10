@@ -45,4 +45,9 @@ class Person: NSObject {
         // 要求对象已经实例化完成
         setValuesForKeys(dict)
     }
+    
+    // 重写父类的方法
+    override func setValue(_ value: Any?, forKey key: String) {
+        // 没有调用 super ，将父类的代码实现完全覆盖，不会崩溃
+    }
 }
