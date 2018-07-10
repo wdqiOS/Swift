@@ -13,10 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let p = Person(dict: ["name": "李哲" as AnyObject, "age":"18" as AnyObject])
-        print(p.name as Any)
-        print(p.age as Any)
-        
+        let p = Person(dict: ["name": "李哲" as AnyObject, "age":18 as AnyObject, "title":"boss" as AnyObject])
+        print("\(p.name ?? "") \(p.age)")
     }
 
     override func didReceiveMemoryWarning() {
