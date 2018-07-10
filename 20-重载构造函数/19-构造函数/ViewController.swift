@@ -27,6 +27,17 @@ class ViewController: UIViewController {
 //        let p = Person(name:"汪大强")
 //        print(p.name)
         
+        /**
+         (_9_构造函数.Student) $R0 = 0x000060c00006e080 {
+            _9_构造函数.Person = {
+            ObjectiveC.NSObject = {
+                isa = _9_构造函数.Student // 当前对象的类
+            }
+            name = "李哲"
+            }
+            no = "001"
+         }
+         */
         let s = Student(name: "李哲", no: "001")
         print(s.name + "-----" + s.no)
     }
