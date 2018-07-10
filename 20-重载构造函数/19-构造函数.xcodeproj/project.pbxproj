@@ -13,6 +13,7 @@
 		ECFD6B3A20F3D5A5007C009F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B3920F3D5A5007C009F /* Assets.xcassets */; };
 		ECFD6B3D20F3D5A5007C009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFD6B3B20F3D5A5007C009F /* LaunchScreen.storyboard */; };
 		ECFD6B4520F3D5B8007C009F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B4420F3D5B8007C009F /* Person.swift */; };
+		ECFD6B4D20F44016007C009F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFD6B4C20F44016007C009F /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		ECFD6B3E20F3D5A5007C009F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECFD6B4420F3D5B8007C009F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		ECFD6B4620F3D9D2007C009F /* 19-构造函数-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "19-构造函数-Bridging-Header.h"; sourceTree = "<group>"; };
+		ECFD6B4C20F44016007C009F /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				ECFD6B3220F3D5A4007C009F /* AppDelegate.swift */,
 				ECFD6B3420F3D5A4007C009F /* ViewController.swift */,
 				ECFD6B4420F3D5B8007C009F /* Person.swift */,
+				ECFD6B4C20F44016007C009F /* Student.swift */,
 				ECFD6B3620F3D5A4007C009F /* Main.storyboard */,
 				ECFD6B3920F3D5A5007C009F /* Assets.xcassets */,
 				ECFD6B3B20F3D5A5007C009F /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				ECFD6B4520F3D5B8007C009F /* Person.swift in Sources */,
 				ECFD6B3520F3D5A4007C009F /* ViewController.swift in Sources */,
 				ECFD6B3320F3D5A4007C009F /* AppDelegate.swift in Sources */,
+				ECFD6B4D20F44016007C009F /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
