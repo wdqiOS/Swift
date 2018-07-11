@@ -46,5 +46,21 @@ class Person: NSObject {
 //        self.init()
         super.init()
     }
+    
+    // 没有 func -> 不让调用
+    // 没有() -> 不让重载
+    // 在对象销毁前自动调用
+    // 类似于OC的dealloc
+    // 析构函数
+    deinit {
+        // 1.跟踪对象的销毁
+        // 2.必须释放的
+        
+        /**
+            - 通知：不释放不会崩溃，但是会泄露
+            - KVO: 不释放会崩溃
+            - NSTimer / CADisplayLink
+         */
+    }
 
 }
