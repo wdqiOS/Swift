@@ -12,6 +12,7 @@
 		EC92E39620F65E88005950E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC92E39420F65E88005950E5 /* Main.storyboard */; };
 		EC92E39820F65E8A005950E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC92E39720F65E8A005950E5 /* Assets.xcassets */; };
 		EC92E39B20F65E8A005950E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC92E39920F65E8A005950E5 /* LaunchScreen.storyboard */; };
+		EC92E3A320F6674F005950E5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92E3A220F6674F005950E5 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC92E39720F65E8A005950E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC92E39A20F65E8A005950E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC92E39C20F65E8A005950E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC92E3A220F6674F005950E5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				EC92E39020F65E88005950E5 /* AppDelegate.swift */,
 				EC92E39220F65E88005950E5 /* ViewController.swift */,
+				EC92E3A220F6674F005950E5 /* Person.swift */,
 				EC92E39420F65E88005950E5 /* Main.storyboard */,
 				EC92E39720F65E8A005950E5 /* Assets.xcassets */,
 				EC92E39920F65E8A005950E5 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC92E3A320F6674F005950E5 /* Person.swift in Sources */,
 				EC92E39320F65E88005950E5 /* ViewController.swift in Sources */,
 				EC92E39120F65E88005950E5 /* AppDelegate.swift in Sources */,
 			);
