@@ -13,6 +13,7 @@
 		EC92E3C120F67768005950E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC92E3BF20F67768005950E5 /* LaunchScreen.storyboard */; };
 		EC92E3C920F67E47005950E5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92E3C820F67E47005950E5 /* ListTableViewController.swift */; };
 		EC92E3CB20F67E66005950E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92E3CA20F67E66005950E5 /* DetailViewController.swift */; };
+		EC92E3CD20F6E898005950E5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92E3CC20F6E898005950E5 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC92E3C220F67768005950E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC92E3C820F67E47005950E5 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		EC92E3CA20F67E66005950E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EC92E3CC20F6E898005950E5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EC92E3B620F67767005950E5 /* AppDelegate.swift */,
 				EC92E3C820F67E47005950E5 /* ListTableViewController.swift */,
 				EC92E3CA20F67E66005950E5 /* DetailViewController.swift */,
+				EC92E3CC20F6E898005950E5 /* Person.swift */,
 				EC92E3BA20F67767005950E5 /* Main.storyboard */,
 				EC92E3BD20F67768005950E5 /* Assets.xcassets */,
 				EC92E3BF20F67768005950E5 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				EC92E3CB20F67E66005950E5 /* DetailViewController.swift in Sources */,
 				EC92E3B720F67767005950E5 /* AppDelegate.swift in Sources */,
+				EC92E3CD20F6E898005950E5 /* Person.swift in Sources */,
 				EC92E3C920F67E47005950E5 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
