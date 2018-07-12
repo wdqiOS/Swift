@@ -16,6 +16,12 @@ class DetailViewController: UITableViewController {
     
     var person: Person?
     
+    // 完成回调属性
+    // 闭包的返回值是可选的
+//    var completionCallBack:()->()?
+    // 闭包是可选的
+    var completionCallBack:(()->())?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,6 +40,13 @@ class DetailViewController: UITableViewController {
         person?.name = nameText.text
         person?.phone = phoneText.text
         person?.title = titleText.text
+        
+        // 3、执行闭包回调
+        // OC 中执行block前都必须判断是否有值，否则容易崩溃
+        // ! 强行解包(Xcode 帮助修订，一定不要用 ‘!’)
+        // ? 可选解包 -> 如果 闭包为nil，就什么也不做！
+        completionCallBack?()
+        
         
         // 4、返回上一级内容
         // 方法的返回值没有使用
