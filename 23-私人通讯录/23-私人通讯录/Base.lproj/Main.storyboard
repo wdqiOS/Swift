@@ -55,6 +55,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="U68-Zu-e6e" kind="show" identifier="list2detail" id="EDy-0T-oiG"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="19p-Ub-o6q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,8 +146,17 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="明细" id="zBV-9W-KZN">
-                        <barButtonItem key="rightBarButtonItem" title="保存" id="5cK-tT-D7r"/>
+                        <barButtonItem key="rightBarButtonItem" title="保存" id="5cK-tT-D7r">
+                            <connections>
+                                <action selector="savePerson:" destination="U68-Zu-e6e" id="aaK-sV-sAL"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="nameText" destination="dmM-WR-ntX" id="Ifs-co-7EV"/>
+                        <outlet property="phoneText" destination="zb0-fK-C1e" id="YrS-ds-H61"/>
+                        <outlet property="titleText" destination="BTf-wg-1Pn" id="0UV-Qn-DEY"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Os8-T6-Gwc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -167,4 +179,7 @@
             <point key="canvasLocation" x="-828" y="194"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="EDy-0T-oiG"/>
+    </inferredMetricsTieBreakers>
 </document>
