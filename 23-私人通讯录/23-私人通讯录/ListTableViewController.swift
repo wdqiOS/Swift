@@ -54,5 +54,19 @@ class ListTableViewController: UITableViewController {
  
         }
     }
+    
+    // MARK: - 数据源方法
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return personList.count
+    }
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellID", for: indexPath)
+        
+        cell.textLabel?.text = personList[indexPath.row].name
+        cell.detailTextLabel?.text = personList[indexPath.row].phone
+        
+        
+        return cell
+    }
 
 }
