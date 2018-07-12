@@ -80,9 +80,12 @@ class ListTableViewController: UITableViewController {
             }
         }else{ // 表示新建
             // 新建个人记录
-            vc.completionCallBack = {
+            
+            // 注意循环引用 vc引用闭包 闭包引用vc
+            // 使用weak 
+            vc.completionCallBack = { [weak vc] in
                // 1.获取明细控制器的 person
-                guard let p = vc.person else{
+                guard let p = vc?.person else{
                     return
                 }
                 // 2.插入到数组顶部
