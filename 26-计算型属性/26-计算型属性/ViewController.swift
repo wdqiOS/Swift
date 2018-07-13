@@ -33,14 +33,14 @@ class ViewController: UIViewController {
         // 不允许修改只读属性
 //        p.title2 = "汪大强"
         
-        print(p.title3)
+        print(p.title3 as Any)
        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         p.name = "汪大强"
         print(p.title2)
-        print(p.title3)
+        print(p.title3 as Any)
         
     }
 
