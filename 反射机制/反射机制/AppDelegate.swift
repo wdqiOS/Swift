@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  28-反射机制
+//  反射机制
 //
 //  Created by 汪大强 on 2018/7/14.
 //  Copyright © 2018年 汪大强. All rights reserved.
@@ -8,37 +8,43 @@
 
 import UIKit
 
-// Xcode8.0 OC的 NSLog 都不能在控制台输入，所有和OC相关的错误，控制台同样无法显示！
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    // ** 注意： window 是可选的
-    var window: UIWindow?
 
+    var window: UIWindow?
+    
+    /**
+        1. 知道Swift 中有命名空间
+            - 在同一个命名空间下，全是共享
+            - 第三方框架使用 Swift 如果直接拖拽到项目中，从属于同一个命名空间，很有可能冲突
+            - 以后尽量都要用 cocospod
+        2. 重点要知道 Swift 中NSClassFromString（反射机制） 的写法
+            - 反射最重要的目的，就是为了解耦！
+            - 搜索反射机制和工厂方法！
+            - 提示：会发现一个简单的功能，写的很复杂！
+            - 但是，封装的很好，而且弹性很大！
+     */
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        // *** 代码中的 ？ 都是 ‘可选’解包，发送消息，不参与计算
-        // 所有的 ？都是Xcode 自动添加的！
-        // 1.实例化 window
+        // 1.实例化window
         window = UIWindow()
         window?.backgroundColor = UIColor.white
         
-        // 2.设置根控制器 需要添加命名空间 -> 默认就是 项目名称（最好不要有数字和特殊符号）
-        let clsName = "28-反射机制.ViewController"
-        // AnyClass? -> 视图控制器的类型
+        // 2.设置根控制器，需要加命名空间-> 默认就是 项目名称 （最好不要有数字和特殊符号）
+        let clsName = "反射机制.ViewController"
         let cls = NSClassFromString(clsName) as? UIViewController.Type
         
         // 使用类创建视图控制器
         let vc = cls?.init()
         
-        
-//        let vc = ViewController()
-        
         window?.rootViewController = vc
         
         // 3.让 window 可见
         window?.makeKeyAndVisible()
+        
+        
+        
         
         
         return true
