@@ -21,6 +21,16 @@ class ViewController: UIViewController {
         
         // getter
         print(p.name as Any)
+        
+        print(p.title)
+        // Cannot assign to property: 'title' is a get-only property
+        // 不能给 get-only 属性设置值
+//        p.title = "汪大强"
+        print(p.title2)
+        // 不允许修改只读属性
+//        p.title2 = "汪大强"
+        
+        
        
     }
 

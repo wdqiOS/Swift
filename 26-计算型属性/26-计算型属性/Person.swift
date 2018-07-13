@@ -24,4 +24,18 @@ class Person: NSObject {
         }
     }
     
+    // OC中定义属性的时候，有一个 readonly -> 重写getter方法
+    var title:String {
+        // 只重写了 getter 方法，没有重写getter方法
+        // 就是只读属性
+        get{
+            return "Mr." + (name ?? "")
+        }
+    }
+    
+    // 只读属性的简写
+    var title2:String{
+        return "Mr." + (name ?? "")
+    }
+    
 }
